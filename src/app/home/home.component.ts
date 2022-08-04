@@ -44,7 +44,6 @@ export class HomeComponent implements OnInit {
   }
 
   donationModal() {
-    console.log("modal donation open");
     const modalRef = this.bootstrapModal.open(ModalComponent, {});
   }
 }

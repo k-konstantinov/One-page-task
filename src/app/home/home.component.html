@@ -62,7 +62,7 @@
                     <a class="nav-link" href="#">S&empty;G PLADS P&#902; ET HOSPICE</a>
                   </li>
                 </ul>
-                <button type="button" class="btn btn-sm btn-danger border-0 rounded-0 btn-size"
+                <button type="button" class="btn btn-sm btn-danger btn-danger-color border-0 rounded-0 btn-size"
                   (click)="donationModal()">DONATION</button>
               </div>
             </div>
@@ -73,10 +73,10 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-12 bg-danger text-light p-0 text-center">
+    <div class="col-12 bg-danger-proj text-light p-0 text-center">
       <img src="../assets/img/hands.jpg" class="w-100 pt-1" alt="Hands">
       <div class="text-overlay">
-        <h1>NEMO VOLUPTATEM QUIA VOLUPTAS</h1>
+        <h1 class="fw-bold">NEMO VOLUPTATEM QUIA VOLUPTAS</h1>
         <p class="h3 fw-lighter">
           DOLORES RATIONEN VOLUPTATEM
         </p>
@@ -89,30 +89,85 @@
   <div class="row">
     <div class="col-2"></div>
     <div class="col-8 my-5 text-center">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatem nam neque sequi veniam saepe asperiores dolorum magnam, sapiente debitis aspernatur maxime iure eligendi, vero nesciunt recusandae magni cupiditate! Voluptates!</p>
-      <button type="button" class="btn btn-sm btn-danger px-3 border-2 border-danger bg-light text-danger rounded-0 fw-bold"
+      <p class="hospi-paragraph-size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatem nam neque sequi veniam saepe asperiores dolorum magnam, sapiente debitis aspernatur maxime iure eligendi, vero nesciunt recusandae magni cupiditate! Voluptates!</p>
+      <button type="button" class="btn btn-sm px-3 border-2 bg-light rounded-0 fw-bold read-more"
                   (click)="donationModal()"> READ MORE </button>
     </div>
     <div class="col-2"></div>
   </div>
   <div class="row">
     <div class="col-2"></div>
-    <div class="col-8 mb-5">
-      <div class="row">
-        <div class="col-6 walls-box">
-          <img src="../assets/img/hall.jpg" alt="Avatar" class="image w-100">
-          <div class="middle center">
-            <img src="../assets/img/Logo.png" alt="Avatar" class="py-2 w-100">
-            <h6 class="text-center">HVILKET HOSPICE ER BEDST</h6>
-            <button type="button" class="btn btn-sm px-3 border-2 border-danger bg-danger text-light text-danger rounded-0 fw-bold read-more-size"
-                    (click)="donationModal()"> READ MORE </button>
+    <div class="col-8">
+      <div class="row mb-3">
+        <div class="col-6 img-box">
+          <img src="../assets/img/hall.jpg" class="w-100 h-100 cut" alt="Hall">
+          <div class="text-block">
+            <p class="shadow-bg-p">Lorem ipsum dolor sit <br/>amet, consectetur</p>
           </div>
         </div>
-        <div class="col-3">
-          <img src="../assets/img/meet.jpg" alt="Avatar" class="image cut w-100 h-100">
+        <div class="col-3 img-box">
+          <img src="../assets/img/blur.jpg" class="w-100 h-100 cut" alt="Blur">
+          <div class="text-block center-shadow-p">
+            <img src="../assets/img/logo-img.png" alt="Logo" class="py-2 w-50">
+            <h6 class="logo-name">HOSPICEGUIDEN</h6>
+            <p class="text-center blur-text-size m-1">HVILKET HOSPICE ER BEDST</p>
+            <button type="button" class="btn btn-sm btn-sm-blur px-2 py-1 text-light rounded-0 fw-bold"
+                  (click)="donationModal()"> READ MORE </button>
+          </div>
         </div>
-        <div class="col-3">
-          <img src="../assets/img/people.jpg" alt="Avatar" class="image cut w-100 h-100">
+        <div class="col-3 img-box">
+          <img src="../assets/img/people.jpg" class="w-100 h-100 cut" alt="People">
+          <div class="text-block">
+            <p class="shadow-bg-p">Lorem ipsum dolor sit <br/>amet, consectetur</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-3 img-box">
+          <img src="../assets/img/older-people.jpg" class="w-100 h-100 cut" alt="Older-people">
+          <div class="text-block">
+            <p class="shadow-bg-p">Mauris maximus nisi et <br/>sapien tristique, quis </p>
+          </div>
+        </div>
+        <div class="col-3 img-box">
+          <img src="../assets/img/meet.jpg" class="w-100 h-100 cut" alt="Meet">
+          <div class="text-block">
+            <p class="shadow-bg-p">Aenean suscipit leo nec <br/>est convallis faucibus</p>
+          </div>
+        </div>
+        <div class="col-6 img-box">
+          <img src="../assets/img/desk.jpg" class="w-100 h-100 cut" alt="Desk">
+          <div class="text-block">
+            <p class="shadow-bg-p">HVAD KAN VI FORVENTE I FREMTIDEN</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-2"></div>
+  </div>
+  <div class="row">
+    <div class="col-2"></div>
+    <div class="col-8 mt-5 mb-3 text-center">
+      <h4 class="mb-3 hospi-title">HOSPICEGUIDEN</h4>
+      <p class="mb-5 hospi-paragraph-size">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis laboriosam tenetur animi facere atque officia? Possimus deserunt sapiente corrupti! Possimus cum non modi, est sint omnis tenetur expedita earum vitae?</p>
+      <div class="row mb-5">
+        <div class="col-4">
+          <img src="../assets/img/phone.jpg" class="w-50" alt="Phone">
+          <p class="circle-img">
+            KONTACT <br/> HOSPICEGUIDEN
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="../assets/img/earth.jpg" class="w-50" alt="Earth">
+          <p class="circle-img">
+            FIND DET NAERMASTE <br/> HOSPICE
+          </p>
+        </div>
+        <div class="col-4">
+          <img src="../assets/img/parcent.jpg" class="w-50" alt="Percent">
+          <p class="circle-img">
+            GODE RAD & VEJLEDNING <br/> TIL AT VAELAGE ET HOSPICE
+          </p>
         </div>
       </div>
     </div>
