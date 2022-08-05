@@ -351,4 +351,22 @@
   .col-sm-12 {
       display: block!important;
   }
+  .nav-mobile{
+    flex-direction: column!important;
+  }
+  .overlay-mobile{
+    top: 170px;
+  }
+  .overlay-mobile h1{
+    font-size: 20px;
+  }
+  .overlay-mobile p{
+    font-size: 10px;
+  }
+  .mobile-m{
+    margin-bottom: 1rem;
+  }
+  .center-shadow-p{
+    top: 40%;
+  }
 }
